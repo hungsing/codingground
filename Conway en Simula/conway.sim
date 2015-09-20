@@ -1,0 +1,37 @@
+
+begin 
+
+
+Class Coordenada (x,y); integer x,y;
+begin
+    
+    integer procedure getX;
+    begin
+            getX :=x;
+    end of getX;
+
+    integer procedure getY;
+    begin
+            getY :=y;
+    end of getY;
+    
+    procedure printCoord;
+    begin
+            character coord;
+            OutText("(");
+            OutInt(x,1);
+            OutText(",");
+            OutInt(y,1);
+            OutText(")");
+            OutImage;
+    end of printCoord;
+    
+end of Coordenada;
+
+
+Ref(Coordenada) coord;
+coord :- New Coordenada (2,3);
+coord.printCoord;
+
+end
+
