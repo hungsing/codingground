@@ -1,0 +1,1 @@
+{"id":"simula","ext":"sim","version":"Cim v3.37","compile":"cim -o main -w *.sim","execute":"main","preview":"","command":"","file":"/home/cg/src/samples/main.sim","url":"compile_simula_online.php","mode":"c_cpp"}
